@@ -1,0 +1,172 @@
+#content .content_area{margin: 0 auto;width: 1400px;}
+#content .safe_area{
+    margin-bottom:150px;
+    display: flex;
+    gap: 80px;
+}
+#content .safe_area img{
+    width: 650px;
+    height: 510px;
+    border-radius: 20px;
+}
+#content .safe_area .txt1{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+#content .safe_area .txt1 strong{
+    font-size: 2.6rem;
+    color: var(--color-main1);
+}
+#content .safe_area .txt2{
+    margin-top: 120px;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: justify;
+}
+#content .target_area h3{
+    font-size: var(--font-h3-size);
+    text-align: center;
+    margin-bottom: 100px;
+}
+#content .target_area ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#content .target_area ul .txt_box{
+    width: 1100px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px 1px rgba(95, 118, 161, 0.2);
+    margin-bottom: 150px;
+    position: relative;
+}
+#content .target_area ul .txt_box::after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url(../images/sub3/icon_05.png);
+    background-size: contain;
+    position: absolute;
+    left: 500px;top: 220px;
+}
+#content .target_area ul .txt_box dl{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#content .target_area ul .txt_box dt{
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: center;
+    width: 1100px;
+    border-bottom: 1px solid #ccc;
+    padding: 25px 0;
+    color: #fff;
+    background: #313d5f;
+}
+#content .target_area ul .txt_box dd{
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.6;
+    padding: 25px 0;
+}
+#content .target_area ul li:last-child::after{
+    display: none;
+}
+/* 안전보건활동 */
+#content .act_area h3{
+    font-size: var(--font-h3-size);
+    text-align: center;
+    margin-bottom: 100px;
+}
+#content .act_area ul{
+    margin-bottom: 200px;
+}
+#content .act_area ul li{
+    /* margin-bottom:60px ;  */
+    width: 1200px;
+    border-top:1px solid #ccc ;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+#content .act_area ul li dl{
+    position: relative;
+}
+#content .act_area ul li dt{
+    position: absolute;
+    left: 150px;top: 0;
+    color: var(--color-main1);
+    font-size: 2rem;
+    font-weight: 500;
+}
+#content .act_area ul li dt:before{
+    content: '';
+    display: block;
+    width: 75px;
+    height: 18px;
+    background: rgba(170, 191, 218, 0.2);
+    position: absolute;
+    left: 5px;top: 98px;
+    transform: skewX(15deg);z-index: -10;
+}
+#content .act_area ul li dd{
+    font-size: 1.2rem;
+    line-height: 2;
+    margin-left: 570px;
+}
+
+/* #content .act_area ul li::after{
+    content: '';
+    display: block;
+    width: 1100px;
+    height: 1px;
+    background: #ccc;
+    margin: 0 auto ;
+    position: relative;
+    top: 30px;left: 30px;
+} */
+/* #content .act_area ul li:last-child:after{
+    display: none;
+} */
+/* #content .act_area ul li:first-child:before{
+    content: '';
+    display: block;
+    width: 1100px;
+    height: 1px;
+    background: #ccc;
+    margin: 0 auto ;
+    position: relative;
+    top: -30px;left: 30px;
+} */
+#content .act_area dd::before{
+    content: '▪';
+    margin-right: 10px;
+}
+
+/* 아이콘넣기 */
+#content .act_area dt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#content .act_area span{
+    width: 80px;
+    display: block;
+    /* margin-bottom: 10px; */
+}
+#content .act_area span img{
+    width: 100%;
+    display: block;
+    
+}
+/* icon */
+#content .target_area ul .img_box{
+    width: 50px;
+    margin: 30px 0;
+}
+#content .target_area ul .img_box img{
+    width: 100%;
+}

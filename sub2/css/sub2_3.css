@@ -1,0 +1,78 @@
+#content .content_area{margin:70px 0 200px;}
+#content .content_area .add_area{width:1200px;margin: 0 auto;}
+
+/* 이미지섹션 */
+#content .content_area .bg_img{
+    background:url(../images/sub3/network_bg1.jpg)center no-repeat;
+    width: 2000px;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(0.95) contrast(1.05) saturate(0.9);
+    margin-bottom:200px;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+}
+#content .content_area .bg_img p{
+    position: absolute;
+    left: 1200px;
+}
+#content .content_area .bg_img p:first-child{
+    top: 130px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 3px rgba(0,0,0,.3);
+}
+#content .content_area .bg_img p:first-child span{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+#content .content_area .bg_img p:last-child{
+    top: 280px;
+    font-size: 1.3rem;
+}
+/* 주소리스트 */
+#content .add_area a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 20px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: -1px;
+}
+#content .add_area a h3{
+    font-size: 2rem;
+}
+#content .add_area a span{
+    font-size: 2.2rem;
+    font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+}
+#content .add_area .add_list{
+    display: flex;
+    justify-content: flex-start;
+    margin:40px ;
+    padding-left: 150px;
+    gap: 100px; 
+}
+#content .add_area .add_list dl{
+    width: 400px;
+}
+#content .add_area .add_list dl dt{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: #005226;
+}
+#content .add_area .add_list dl dd{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#content .add_area .add_list dd .add_info{
+    flex: 0 0 60px;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1.1rem;
+}

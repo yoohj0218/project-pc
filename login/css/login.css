@@ -1,0 +1,26 @@
+body{background-color: #eee; font-size: 16px; }
+h1 a{margin: 50px auto 0; display: block; width: 200px; height: 32px; text-indent: -9999px; overflow: hidden;
+    background: url(../../images/logo.png) center no-repeat;}
+#content{width: 400px; margin: 50px auto; background: #fff;border-radius: 10px;
+     padding: 50px 80px; font-family: 'Noto Sans KR', sans-serif; font-weight: 500;}
+#content h2{font-size: 2rem;margin-bottom: 10px;text-align: center;}
+#content p{color: #999; font-weight: 400; font-weight: .9em;text-align: center;}
+#content form{margin-top: 50px;}
+#content form label{font-size: 0.9rem; display: block; margin-bottom: 8px;}
+#content form input{border: 1px solid #ddd; width: 100%; height: 50px; border-radius: 7px; 
+    margin-bottom: 20px;box-sizing: border-box;font-size: 0.88rem;}
+#content form .login{padding-left: 15px;color: #000;}
+#content form input::placeholder{font-family: 'Noto Sans KR', sans-serif; color: #ddd;}
+
+#content form input[type=submit]{margin-top: 20px; font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.2rem; border: 0; background: #0056B8; color: #fff; font-weight: 400; height: 60px; cursor: pointer;text-align: center;}
+#content form input:focus{outline-color: #0056B8;}
+
+#content div:nth-of-type(1){margin-left: 50%; transform: translateX(-40%);}
+#content div:nth-of-type(1) a{font-weight: 400; color: #999; display: inline;}
+#content div:nth-of-type(1) a:last-child{margin-left: 10px; position: relative;}
+#content div:nth-of-type(1) a:last-child::before{content: ''; display: block; position: absolute;
+    width: 1px; height: 50%; background: #999; left: -8px; top: 7px;}
+#content div:nth-of-type(2){width: 100%; margin-top: 50px; margin-left: 50%; transform: translateX(-30%);}
+#content div:nth-of-type(2) span{color: #666;font-weight: 400;}
+#content div:nth-of-type(2) a{display: inline; color: #0056B8;font-weight: 600;}

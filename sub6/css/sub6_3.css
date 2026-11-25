@@ -1,0 +1,71 @@
+#content .content_area{width: 1400px;margin: 0 auto;}
+
+#content .faq{
+    width:1200px;
+    margin: 0 auto; 
+    border-bottom:1px solid #ddd;
+}  
+#content .faq .hgroup{
+    position:relative;
+    text-align: center;
+}  
+#content .faq .hgroup h3{
+    font-size: 2rem;
+}
+#content .faq .hgroup .all{
+    position:absolute;
+    top:150px;right:35px; 
+    color:#333;
+}
+#content .faq ul{
+    margin: 150px 0 200px;
+    background: #fff;
+    border-radius: 50px;
+}
+#content .faq .q .trigger{     /* 질문글씨 */
+    padding:35px;
+    box-sizing: border-box;
+    color:#333;
+    text-align:left;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.15rem;
+    /* border-radius: 20px 20px 0 0; */
+    font-weight:500;
+    /* background:#eaf5f7; */
+} 
+#content .faq li:first-child .trigger {
+    border-top: 1px solid #ccc;
+}
+#content .faq .q .trigger:hover,#content .faq .q .trigger:active,#content .faq .q .trigger:focus{
+    color: rgba(23,111,211);
+    /* background: rgb(23, 111, 211); */
+    border-bottom: 2px solid rgba(23,111,211);
+} 
+#content .faq .q {
+    position: relative;
+}
+#content .faq .q span{
+    display: block; 
+    position: absolute; 
+    right: 35px; top:30px;
+    font-size: 1.2rem;
+    color: var(--color-main1);;
+} 
+#content .faq .a{
+    padding:30px;
+    height: 120px;
+    box-sizing: border-box;
+    line-height: 1.8;
+    border-bottom: 1px solid #ccc;
+    border-top: none;
+    /* border-radius:0 0 20px 20px; */
+    /* display: none; */
+    position: relative;
+    padding-left: 65px;
+    background: #f7f7f7;
+} 
+#content .faq .a svg {
+    position: absolute;
+    left: 36px;
+    top: 37px;
+}

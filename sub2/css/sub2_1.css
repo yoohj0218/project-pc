@@ -1,0 +1,154 @@
+#content .content_area{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+#content .search_box{
+    width: 800px; height: 70px;margin:0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 2px solid #333; 
+    display: flex;align-items: center;gap: 10px;
+}
+#content .search_box input{
+    flex: 1;
+    width: 450px;
+    font-size: 1.2rem;
+    border: 0;
+    margin-right: 20px;
+}
+#content .search_box input:focus{
+    outline: none;
+}
+#content .search_box button{
+    width: 60px;
+    height: 40px; 
+    padding: 5px 0; 
+    font-size: 18px; 
+    border: none; 
+    outline: none;
+    background: #999; 
+    color: #fff;
+    font-weight: bold; 
+    border-radius: 30px; 
+    cursor: pointer;}
+#content .search_box .btn_all{background:#666; box-sizing: border-box;}
+#content .category_tab{display: flex;justify-content: center;gap: 50px;margin: 100px 0 50px;}
+#content .category_tab button{
+    border: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#content .category_tab button.active{
+    background:var(--color-main2) ;
+    color: #fff;
+}
+
+/* 제품리스트 */
+#content ul{overflow: hidden;margin:0 0 200px 30px;}
+#content .product_list li{
+    width: 320px; 
+    height: 380px; 
+    float: left; 
+    text-align: center;
+    border: 1px solid#ededed;
+    margin: 10px;
+    box-sizing: border-box;
+    padding:40px 30px;
+    transition: all .5s ease-in-out;
+}
+#content .product_list li:hover{
+    transform: scale(1.03);
+    /* border: 1px solid #bbd8c9; */
+    box-shadow: 1px 1px 3px 1px rgba(114, 117, 115, 0.2);
+}
+#content .product_list li:hover .pop_open{color: #00ab51;transform: translateX(8px);}
+#content .product_list li img{width: 200px;height: 200px;object-fit:contain;}
+#content .product_list li a{color: #333;}
+#content .product_list li dl{margin: 15px auto;text-align: left;} 
+#content .product_list li dd{font-size:1.15rem ; font-weight: bold; margin-bottom: 20px;font-weight: 500;}
+#content .product_list li dt{line-height: 1.5;font-size: 0.88rem;font-weight: 500;width: 80px;padding: 3px 5px;border-radius: 20px;margin-bottom: 5px;text-align: center;}
+#content .product_list li .pop_open{text-align: right;font-size: 0.8rem;color: #666;transition: all .5s ease-out;}
+/* 팝업 */
+#content .product .modal_box{
+    position: fixed; 
+    width: 100%; 
+    height: 100%;
+    left:0; top:0; 
+    background: rgba(0,0,0,.8); 
+    display: none;}
+#content .product .modal_box .popup{
+    width:950px; 
+    height: 520px;
+    position: absolute; 
+    left: 50%; top:50%; 
+    transform: translate(-50%, -50%);
+    background: #fff; 
+    text-align: left;
+    border-radius: 30px;
+}
+#content .product .modal_box .popup img{
+    width:400px;
+    background: #fff;
+    border-radius: 30px;
+}
+.product .modal_box .popup .pop_con{
+    display:flex;
+    gap: 60px;
+    align-items:center;
+    justify-content: center;
+    height:100%;
+}
+#content .product .modal_box .popup p{
+    font-weight: bold; 
+    font-size: 1.75rem; 
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+#content .product .modal_box .popup dt{
+    font-size: 1rem;
+    margin-top: 30px;
+    font-weight: 600;
+    color: #666;
+}
+#content .product .modal_box .popup dd{
+    font-size: 1.1rem;
+    margin-top: 5px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+#content .product .modal_box .popup .close_pop{
+    position: absolute; 
+    bottom: 30px; left:0;
+    text-align: center;
+    width: 100%; 
+    color: #333; 
+    font-size: 1.3em;
+}
+
+#content .product_list .prescription{
+    color: #0056b8;
+    background: rgba(37, 75, 207, 0.06);
+}
+
+#content .product_list .general{
+    color: #00ab51;
+    background: rgba(99, 201, 145, 0.08);;
+}
+
+#content .product_list .health{
+    color: #e47c1b;
+    background: rgba(214, 109, 22, 0.08);
+}
+
+#content .product_list .medical{
+    color: #7440E3;
+    background: rgba(116, 123, 229, 0.07);
+}
+#content .product .modal_box .popup .pop_con > div {
+    width: 400px;
+}

@@ -1,0 +1,25 @@
+body{font-size: 1rem;}
+#headerArea #gnb{background:none}
+#headerArea #gnb .dropdownmenu li .depth1{font-size:1.17rem;}
+#headerArea #gnb ul.dropdownmenu ul li a{font-size: 16px;}
+#headerArea .top_menu li a{font-size: 16px;}
+
+.search_pop{box-sizing: content-box;}
+.search_pop .recom{font-size: 1rem;}
+#headerArea h3 {font-family:"Noto Sans KR", sans-serif;}
+#content{padding-bottom: 200px; width:1400px; margin: 0 auto;}
+#content h2{font-family:"Noto Sans KR", sans-serif;}
+
+#content .title_area{width:100%;}
+#content .content_area{width: 1300px;margin: 0 auto;}
+.tbl_head01 thead th{font-size: 1.1rem;font-weight: 500;background: var(--color-main1);color: #fff;}
+.tbl_head01 thead th a{color: #fff;}
+.chk_box input[type="checkbox"] + label span{margin-left: 10px;}
+#bo_list .td_name{text-align: center;}
+.bo_tit{font-size: 1rem;font-weight: 400;}
+#bo_list tbody tr {font-size: 1rem;}
+#bo_list_total{font-size: 0.88rem;}
+#bo_v_con{font-size: 1rem;}
+.bo_v_nb li a{font-size: 0.88rem;padding-top: 10px;} 
+.bo_v_nb li .nb_date{font-size: 0.88rem;position: relative;bottom: 20px;}
+#content .content_area > p{font-size: 2rem;font-weight: 600;line-height: 1.5;text-align: center;margin-bottom: 80px;}

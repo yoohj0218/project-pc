@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제품정보:제품검색</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <script src="https://kit.fontawesome.com/4c77fd647a.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="./css/sub2_common.css">
+    <link rel="stylesheet" href="./css/sub2_1.css">
+</head>
+<body>
+    <div id="skipNav">
+        <a href="#content">본문바로가기</a>
+        <a href="#gnb">네비게이션바로가기</a>
+    </div>
+    <div id="wrap">
+         <header id="headerArea">
+
+        </header>
+        <div class="search_modal">
+
+        </div>
+        <div class="visual">
+            <img src="./images/common/sub_visual03.jpg" alt="">
+            <strong>제품정보</strong>
+        </div>
+
+        <div class="sub_nav">
+            <ul>
+                <li><a class="active" href="./sub2_1.html">제품검색</a></li>
+                <li><a href="./sub2_2.html">생산시설</a></li>
+                <li><a href="./sub2_3.html">영업네트워크</a></li>
+            </ul>
+        </div>
+        <main id="content">
+            <article>
+                <div class="title_area">
+                    <div class="line_map">
+                        HOME &gt; 제품정보 &gt; <strong>제품검색</strong>
+                    </div>
+                    <h2>제품검색<span>PRODUCT</span></h2>
+                </div>
+                <div class="content_area">
+                    <div class="product">
+                        <div class="search_box">
+                            <label for="title" class="hidden">제품명 검색</label>
+                            <input id="title" type="text" placeholder="제품명을 검색하세요." />
+                            <button id="btn" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                        <div class="category_tab">
+                            <button type="button">전체보기</button>
+                            <button type="button">전문의약품</button>
+                            <button type="button">일반의약품</button>
+                            <button type="button">건강기능식품</button>
+                            <button type="button">의료기기</button>
+                        </div>
+                        <!-- <div class="all_box">
+                            <button class="btn_all" type="button">ALL</button>
+                        </div> -->
+
+                        <div class="product_list">
+                            <!-- 여기에 검색 리스트 -->
+                        </div>
+                        <div class="modal_box">
+                            <div class="popup">
+                                <div class="pop_con">
+                                    <!-- 팝업 내용 -->
+                                </div>
+                                <a href="#" class="close_pop">close</a>
+                            </div>
+                        </div>
+                    </div>
+ 
+                </div>
+            </article>
+        </main>
+
+
+        <footer id="footerArea">
+
+        </footer>
+    </div>
+
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery-migrate-1.4.1.min.js"></script>
+    <script>
+        $('#headerArea').load('../common/sub_header.html',function(){
+            //function(){} -> main_header.html의 로드가 완료가 되면...
+            $.getScript('../js/fullnav.js');  //스크립트 js파일을 동작시키는 메소드코드
+        });
+        $('.search_modal').load('../common/search_pop.html');
+        $('#footerArea').load('../common/sub_footer.html',function(){
+            $.getScript('../js/select.js');
+        });
+   </script>
+   <script src="./js/sub2_1.js"></script>
+
+</body>
+</html>

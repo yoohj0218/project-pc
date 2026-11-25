@@ -1,0 +1,116 @@
+
+#content .content_area p{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+/* 연혁네비 */
+#content .content_area .history_nav{
+    width: 100%;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 150px;
+}
+#content .content_area .history_nav ul{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex
+}
+/* 상단에 고정 sticky menu */   
+#content .navOn{position: fixed; width: 100%;z-index:100; left:0; top: 0;background: #fff;border-bottom: 1px solid #ccc;}
+#content .navOn ul{margin: 0 auto;padding: 0;}
+/* 메뉴 활성화 scroll spy */
+.navBox ul li .spy{background: var(--color-main1);color: #fff;}
+
+#content .content_area .history_nav ul li{
+    width: 16.66%;
+    text-align: center;
+    align-content: center;   
+}
+#content .content_area .history_nav ul li a{
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 15px;
+    height: 30px;
+    position: relative;
+    transition: all .5s ease-out;
+}
+.content_area .history_nav ul li a:hover{
+    background: #fff;
+    color: var(--color-main1);
+}
+.content_area .history_nav ul li a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: var(--color-main1);
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: all .3s ease;
+}
+.content_area .history_nav ul li a:hover::after{
+    width: 100%;
+}
+
+
+/* 연혁리스트 */
+#content .content_area ul{width: 1400px;margin: 0 auto;}
+#content .content_area dl{
+    position: relative;
+    margin-bottom: 100px;
+}
+#content .content_area dt{
+    position: absolute;
+    left: 110px; top:-10px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+#content .content_area dt:before{
+    content: ''; display: block;
+    width: 300px; height: 1.4px;
+    background: #d9d9d9;
+    position: relative; left: 160px; top: 32px;
+}
+#content .content_area dt:after{
+    content: ''; display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--color-point3);
+    position: relative;left: 460px; top: -32px;
+}
+#content .content_area ul .his_imgbox{
+    height: 500px;
+    position: relative;
+}
+#content .content_area ul li dl dd{
+    margin-left: 680px;
+    line-height: 42px;
+    font-size: 1.2rem;
+}
+#content .content_area ul li dl dd .his_month{
+    color: var(--color-main1);
+    font-size: 1.45rem;
+    font-weight: 700;
+    margin-right: 15px;
+}
+#content .content_area ul li dl dd .svg-inline--fa{
+    color: rgb(255, 170, 0);
+}
+#content .content_area ul li img{
+    position: absolute;
+    left: 140px;
+    top: 90px;
+    border-radius: 30px;
+    box-shadow: 2px 1px 10px 1px rgba(185, 185, 185, 0.6);
+    overflow: hidden;
+    transition: all .5s ease-out;
+}
+#content .content_area ul li img:hover{
+    transform: scale(1.08);
+    filter: contrast(110%);
+}

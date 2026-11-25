@@ -1,0 +1,156 @@
+
+#content .content_area{width: 1400px;margin: 0 auto;}
+#content .contact{
+    width: 800px; 
+    padding: 40px;
+    margin: 0 0 200px;
+    background: rgb(225, 232, 240,.5);
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+#content  h3{
+    font-size: var(--font-h3-size);
+    text-align: center;
+    margin-bottom: 50px;
+    color: var(--color-main1);
+}
+#content .contact div{
+    padding: 6px;
+    width: 650px;
+    margin: 0 auto;
+}
+#content .contact label{
+    font-size: 1.2rem; 
+    font-weight: 600;
+    width: 100px;
+    display: block; 
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+#content .contact input, #content .contact textarea{
+    width: 100%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    border: 2px solid #c2c2c2; 
+    background: #fff; 
+    color: #333 ;
+    font-family: "Noto Sans KR", sans-serif;
+    border-radius: 10px; 
+    outline: none; 
+    transition: all .5s;}
+#content .contact input:focus,#content .contact textarea:focus{        
+    box-shadow: 1px 1px 3px 1px rgba(185, 185, 185, 0.4); 
+    transform: scale(1.01); 
+    border: 2px solid rgb(8, 107, 221);
+}     
+#content .contact textarea{height: 200px; }
+#content .contact button{
+    padding: 15px 50px;
+    background:#fff;
+    color: rgb(3, 105, 223); 
+    font-weight: 500;
+    font-size: 1.3rem; 
+    border-radius: 15px;
+    border: 2px solid rgb(3, 105, 223); 
+    margin: 30px auto 0;
+    display: block; 
+    cursor: pointer;
+    transition: all .5s ease-out;
+}
+#content .contact button:hover{
+    background: rgb(3, 105, 223);
+    color: #fff;
+}
+/* 제품유형선택 */
+#content .contact .radio_box{
+    display: flex;
+    gap: 30px;
+    width: 650px;
+    box-sizing: border-box;
+}
+#content .contact .radio_box label{
+    width: auto;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    border: 2px solid#c2c2c2;
+    padding: 10px 30px;
+    border-radius: 15px;    
+    font-weight: 500;
+    background: #fff;
+}
+#content .contact .radio_box input{
+    width: 15px;
+    margin-right: 15px;
+}
+#content .contact .radio_box label:has(input:checked) {
+    border-color: #086bdd;
+}
+#content a{
+    display: inline;
+    font-weight: 600;
+    text-decoration: underline;
+}
+#content .contact p{
+    font-size: 1.25rem;
+    margin: 30px 0 50px;
+}
+#content .content_area .contact_wrap{
+    display: flex;
+    gap:120px;
+    align-items: flex-start;
+}
+#content .content_area .img_box img{
+    width: 480px;
+}
+#content .content_area .img_box p{
+    width: 480px;
+    font-size: 1.8rem;
+    margin: 100px 0 20px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+#content .content_area .img_box p span{
+    color: var(--color-main2);
+}
+/* 팝업 */
+#content .contact .box{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    z-index: 10;
+}
+#content .contact .big{ 
+    width: 1000px;
+    height: 700px;
+    box-sizing: border-box;
+    border: 5px solid rgb(3, 105, 223);
+    background: #fff;
+    position: fixed;
+    padding: 30px;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    display: none;
+    z-index: 20;
+}
+#content .big .tit{
+    font-size: 2rem;
+}
+#content .big p{
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+#content .big p:last-of-type{font-weight: 600;}
+#content .big .closeBtn{
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+}

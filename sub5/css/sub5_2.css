@@ -1,0 +1,145 @@
+#content .content_area{
+    width: 1400px;
+    margin: 0 auto;
+}
+#content .content_area> p{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+#content .ir_btn{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+} 
+#content .ir_btn li a{
+    border: 1px solid var(--color-main1);
+    padding: 15px 40px;
+    border-radius: 50px;
+    margin-bottom: 80px;
+    transition: all .5s ease-out;
+    font-size: 1.2rem;
+}
+#content .ir_btn li a:hover,#content .ir_btn li a:focus{
+    transform: scale(1.05);
+    background: var(--color-main1);
+    color: #fff;
+}
+#content .content_area .son_chart .chart_wrap{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    width: 1400px;
+    height: 380px;
+    margin-bottom: 200px;
+}
+#content .content_area .chart1,#content .content_area .chart2,#content .content_area .chart3{
+    width: 400px;
+}
+/* 손익계산서 표만들기 */
+#content .content_area .son_chart table{
+    width: 1200px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 200px;
+    border-collapse:collapse;
+}
+#content .son_chart table th{
+    color: #ffffff;
+    background: #343f50;
+    padding: 25px 0; 
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-right: 1px solid #fff;
+}
+#content table .son_chart th:last-child,#content .son_chart table td:last-child{border-right: none;}
+#content table td{
+    text-align: center;
+    padding: 22px 10px;
+    border-top: 1px solid #ccc  ;
+    border-right: 1px solid #ccc;
+    color: #2c2c2c;
+    font-size: 1.1rem;
+}
+#content table th:first-child{
+    width: 420px;
+    font-weight: 500;
+}
+#content table td:first-child{
+    font-weight: 500;
+}
+#content .son_chart .unit1{
+    display: block;
+    text-align: right;
+    margin:0 10px 50px 0;
+    font-weight: 500;
+    color: #666;
+}
+#content .son_chart .unit2{
+    display: block;
+    text-align: right;
+    margin:0 110px 30px 0;
+    font-weight: 500;
+    color: #666;
+}
+#content .son_chart .chart_title{
+    display: block;
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+/* 재무재상태표 */
+#content .content_area .jae_chart .chart_wrap{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    width: 1400px;
+    height: 380px;
+    margin-bottom: 200px;
+}
+#content .content_area .jae_chart table{
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-bottom: 200px;
+    border-bottom: 1px solid #ccc;
+    border-collapse:collapse;
+}
+#content .jae_chart table th{
+    color: #ffffff;
+    background: #323e50;
+    padding: 25px 0; 
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-right: 1px solid #fff;
+}
+#content table .jae_chart th:last-child,#content .jae_chart table td:last-child{border-right: none;}
+#content .content_area .jae_chart table .total td{
+    background: #eeeeee;
+    font-weight: 500;
+}
+#content .jae_chart .unit1{
+    display: block;
+    text-align: right;
+    margin:0 10px 50px 0;
+    font-weight: 500;
+    color: #666;
+}
+#content .jae_chart .unit2{
+    display: block;
+    text-align: right;
+    margin:0 110px 30px 0;
+    font-weight: 500;
+    color: #666;
+}
+#content .jae_chart .chart_title{
+    display: block;
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}

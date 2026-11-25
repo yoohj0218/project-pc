@@ -1,0 +1,40 @@
+body{font-size: 1rem;}
+#headerArea #gnb{background:none}
+#headerArea #gnb .dropdownmenu li .depth1{font-size:1.17rem;}
+#headerArea #gnb ul.dropdownmenu ul li a{font-size: 16px;}
+#headerArea .top_menu li a{font-size: 16px;}
+
+.search_pop{box-sizing: content-box;}
+.search_pop .recom{font-size: 1rem;}
+#headerArea h3 {font-family:"Noto Sans KR", sans-serif;}
+#content{padding-bottom: 200px; width:1400px; margin: 0 auto;}
+#content h2{font-family:"Noto Sans KR", sans-serif;}
+
+#content .title_area{width:100%;}
+/* 썸네일 */
+#bo_list_total{font-size: 1rem;}
+#bo_gall .gall_con {display: flex;align-items: stretch; gap: 50px;padding: 20px;border-bottom: 1px solid #ccc;}
+#bo_gall .gall_img {width: 400px;flex-shrink: 0;margin-left: 30px;border-bottom: none;}
+#bo_gall .gall_img img {width: 100%; height: 100%;object-fit: cover;}
+#bo_gall .gall_text_href {flex: 1;margin: 20px;padding: 0 40px;}
+#bo_gall .gall_text_href a{font-size: 1.3rem;margin-bottom: 30px;}
+#bo_gall .bo_cnt{font-size:1.1rem;color: #333;line-height: 1.6;word-break: keep-all;}
+#bo_gall .gall_info { position: absolute; left: 560px;bottom: 35px;font-size: 0.88rem;}
+
+/* 본문 */
+#bo_v_title .bo_v_tit{font-size: 1.5rem;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;padding: 20px 50px;text-align: center;background: #f5f5f5;word-break: keep-all;}
+#bo_v_img a.view_image{text-align: center;}
+#bo_v_img img{margin:10px auto;}
+#bo_v_con p{padding: 0 60px;font-size: 1rem;line-height:1.8;word-break: keep-all;text-align: justify;}
+#bo_v_con .img_info{text-align: center;}
+#bo_v_con strong{font-size: 1.1rem;}
+#bo_v_img{display: flex;justify-content: center;}
+
+
+/* 하단 이전글 */
+#bo_v .bo_v_nb li .nb_tit{font-size: 1rem;} 
+#bo_v .bo_v_nb li a{font-size: 1rem;padding: 5px 0;}
+.bo_v_nb li{padding: 15px;}
+.bo_v_nb li .nb_date{font-size: 0.88rem;position: relative;bottom: 15px;}
+
+#content .content_area > p{font-size: 2rem;font-weight: 600;line-height: 1.5;text-align: center;margin-bottom: 35px;}

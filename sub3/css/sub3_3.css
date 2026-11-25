@@ -1,0 +1,139 @@
+table thead .table_tit th{background: #0e3057; color: #fff;padding: 20px; font-weight: 600;font-size: 1.35rem}
+#content .content_area{width: 1400px;margin: 0 auto;}
+/* 첫번째 section */
+#content .content_area .pip_area1{
+    margin-bottom:150px;
+}
+#content .content_area .pip_area1 h3{
+    font-size: var(--font-h3-size);
+    text-align: center;
+    margin: 0 auto 25px;
+    width: 600px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--color-point3);
+}
+#content .content_area .pip_area1>p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 60px;
+    font-weight: 500;
+    color: var(--color-main1);
+}
+#content .content_area .pip_area1 table{
+    border-collapse:collapse; width: 1400px;
+    box-sizing: border-box;
+    border-spacing: 2px 2px;
+    border-bottom: .25px solid #ccc;
+}
+#content .content_area .pip_area1 .table_sub th{
+    padding: 10px;
+    font-size: 1.15rem;
+    background: rgba(196, 204, 210, 0.35);
+    border-top: 2px solid#fff;
+    border-bottom: .25px solid #ccc;
+}
+#content .content_area .pip_area1 table td{
+    height: 160px;
+    width: 280px;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+#content .content_area .pip_area1 table td strong{
+    margin-bottom: 30px;
+    display: block;
+    font-size: 1.5rem;
+}
+#content .content_area .pip_area1 table .td_green span{
+    color: #102515;
+    font-weight: 600;
+    display: block;
+}
+#content .content_area .pip_area1 table p{margin-bottom: 5px;}
+#content .content_area .pip_area1 table .td_green{
+    box-shadow: inset 3px 0 0 #2d5f42;
+    background: rgba(207, 228, 215, .35);
+}
+#content .content_area .pip_area1 table .td_yellow{ 
+    background: #fafae7;
+    box-shadow: inset 3px 0 0 #B4B458;
+}
+#content .content_area .pip_area1 table .td_yellow span{
+    font-weight: 600;
+    display: block;
+    color: #383403;
+}
+#content .content_area .pip_area1 table .td_blue{
+    background: #e6f9fd;
+    box-shadow: inset 3px 0 0 #5CBBC8;
+}
+#content .content_area .pip_area1 table .td_blue span{
+    font-weight: 600;
+    display: block;
+    color: #0C2E32;
+}
+#content .content_area .pip_area1 table .td_purple{
+    background: rgba(186,189,242,.2);
+    box-shadow: inset 3px 0 0 #A1A4D2;
+}
+#content .content_area .pip_area1 table .td_purple span{
+    font-weight: 600;
+    display: block;
+    color: #37394E;
+}
+/* 두번째 section */
+#content .content_area .pip_area2 h3{
+    font-size: var(--font-h3-size);
+    text-align: center;
+    margin: 0 auto 25px;
+    width: 750px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--color-point3);
+}
+#content .content_area .pip_area2 p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 60px;
+    font-weight: 500;
+    color: var(--color-main1);
+}
+#content .content_area .pip_area2 div{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 200px;
+}
+#content .content_area .pip_area2 div dl{
+    width: 600px;
+    border: .5px solid #ccc;
+    border-radius: 30px;
+    overflow: hidden;
+}
+#content .content_area .pip_area2 div dl dt{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+    background: #0e3057;
+    color: #Fff;
+    
+}
+#content .content_area .pip_area2 div dl dd{
+    margin-left: 40px;
+    padding-top:10px ;
+    font-size: 1.2rem;
+}
+#content .content_area .pip_area2 div dl dd:before{
+    content: "•";
+    margin-right: 10px;
+}
+#content .content_area .pip_area2 div dl dd:first-of-type {
+    margin-top: 20px;
+}
+#content .content_area .pip_area2 div dl dd:last-of-type {
+    margin-bottom: 30px;
+}
+/* 빈칸채우기 */
+#content .content_area .pip_area1 table .green_no{background: rgba(239,248,243,.5);}
+#content .content_area .pip_area1 table .yellow_no{background: #f8f8f2;}
+#content .content_area .pip_area1 table .blue_no{background: #f8fdfd;}
+#content .content_area .pip_area1 table .purple_no{background: rgba(198, 200, 241, 0.05);}

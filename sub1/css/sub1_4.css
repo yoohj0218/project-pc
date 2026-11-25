@@ -1,0 +1,94 @@
+/* 오시는길 본문영역 */
+
+#content #map, #content #map2, #content #map3{
+    width: 1110px;
+    height: 600px;
+    margin: 0 auto;
+    border: 10px solid var(--color-sub2);
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+#content p{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+#content .content_area .map_menu{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+#content .content_area .map_menu li{
+    width: 250px;  
+    text-align: center;
+    margin-bottom: 100px;
+}
+#content .content_area .map_menu a{
+    transition: all .5s ease-out;
+    border: 1px solid var(--color-point1);
+    border-radius: 50px;
+    padding: 10px 0; 
+    font-size: 1.2rem; 
+
+}
+#content .content_area .map_menu li:hover a,#content .content_area .map_menu li .active{
+    background: var(--color-point1);
+    color: #fff;
+    font-weight: 500;
+    transform: scale(1.1);
+    border:none;
+}
+#content .content_area .map_list1, .map_list2, .map_list3{
+    width: 1110px;
+    margin: 30px auto 150px;
+    padding: 50px;
+    box-sizing: border-box; 
+    font-size: 1.25rem;
+    border-radius:10px;
+    box-shadow: 1px 1px 10px 1px rgb(0,0,0,.1);
+}
+#content .content_area address span{
+    margin-left: 50px;
+}
+#content .content_area address{
+    line-height: 1.85;
+    margin-bottom: 30px;
+}
+#content .content_area address strong{
+    font-size: 1.3rem;
+}
+#content .content_area .map_list1 li{
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#content .content_area .map_list1 li .label{
+    width: 80px;
+}
+#content .content_area .map_list1 li span{
+    display: block;    
+}
+#content .content_area li .material-symbols-outlined{
+    font-size: 2rem;
+    font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+}
+#content .content_area .map_list2 ul li,#content .content_area .map_list3 ul li {
+    display: flex;
+    align-items: center; 
+    gap: 20px;               
+}
+#content .content_area .map_list2 ul li strong,#content .content_area .map_list3 ul li strong{
+    width: 100px;
+}
+#content .content_area ul li span:last-child {
+    word-break: keep-all;
+}
+#content .content_area address{
+    padding-bottom: 30px;
+    border-bottom:1px  solid#e7e7e7;
+}

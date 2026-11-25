@@ -1,0 +1,178 @@
+#content .content_area{width: 1400px;margin: 0 auto;}
+#content .content_area> p{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 120px;
+}
+#content .content_area> p span{
+    color: var(--color-main2);
+}
+/* 자율준수의지 선언문 */
+#content .soc_text{
+    display: flex;
+    gap: 100px;
+    position: relative;
+}
+#content .soc_text .text_left h3{
+    font-size: var(--font-h3-size);
+    margin-bottom: 80px;
+}
+#content .soc_text .text_left strong{
+    font-size: 2rem;
+}
+#content .soc_text .text_left span{
+    position: absolute;
+    left: 260px;top: 160px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    display: block;
+}
+#content .soc_text .text_left img{
+    border-radius: 250px 0 250px 0;
+    position: relative;
+    top: 50px;
+}
+#content .soc_text .text_right{ 
+    padding: 0 50px;
+    word-break: keep-all;
+    text-align: justify;
+    margin: 50px 0 150px;
+}
+#content .soc_text .text_right p{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* CP영역 */
+#content .cp_area h3{
+    font-size: var(--font-h3-size);
+    margin-bottom: 20px;
+}
+#content .cp_area>p{
+    font-size: 1.5rem;
+    margin-bottom: 60px;
+}
+#content .cp_area h4{
+    font-size: var(--font-h4-size);
+    margin-bottom: 30px;
+}
+#content .cp_area .cp8_box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+    margin-bottom: 80px;
+}
+#content .cp_area .cp8_box li{
+    height: 250px;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+#content .cp_area .cp8_box li span{
+    display: block;
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+#content .cp_area .cp8_box li dt{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#content .cp_area .cp8_box li dd{
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: center;
+    word-break: keep-all;
+}
+#content .cp_area .cp8_box .sb_box{
+    background: #E3F2FD;
+}
+#content .cp_area .cp8_box .b_box{
+    background: #0D47A1;
+    color: #fff;
+}
+#content .cp_area .cp_edu .edu_box{margin-bottom: 150px;}
+#content .cp_area .cp_edu .edu_box li{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    padding: 30px 10px;
+    border: 1px solid #34483F;
+    width: 1200px;
+    margin: 0 auto 25px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px 1px rgba(73, 123, 100, 0.2);
+}
+#content .cp_area .cp_edu .edu_box li strong{
+    width: 300px;
+    text-align: center;
+    font-size: 1.5em;
+    color: var(--color-point1);
+}
+#content .cp_area .cp_edu .edu_box li span{
+    width: 800px;
+    font-size: 1.2rem;
+}
+/* 부패방지시스템 */
+#content .cp_system h3{
+    font-size: var(--font-h3-size);
+    margin-bottom: 60px;
+}
+#content .cp_system h4{
+    font-size: var(--font-h4-size);
+    margin-bottom: 20px;
+}
+#content .cp_system .system_1 p,#content .cp_system .system_2 >p{
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+#content .cp_system .system_1 .sy_imgbox{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+#content .cp_system .system_1 .sy_imgbox img{
+    width: 350px;
+    border: 1px solid #ccc;
+    transition: all .5s ease-out;
+    margin-bottom: 50px;
+}
+#content .cp_system .system_1 .sy_imgbox img:hover{
+    transform: scale(1.1);
+}
+#content .cp_system .system_2 .sy_idea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 200px;  
+    width: 800px;
+    height: 200px;
+    background:rgba(173,215,255,.3);
+    box-shadow: 1px 1px 5px 1px rgba(125, 134, 143, 0.3);
+    border-radius: 150px;
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+#content .cp_system .system_2 .sy_idea img{
+    width: 200px;
+}
+#content .cp_system .system_2 .sy_idea .idea_txt{
+    text-align: center;
+}
+#content .cp_system .system_2 .sy_idea .idea_txt p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+content .cp_system .system_2 .sy_idea .idea_txts span{
+    font-size: 1.1rem;
+}
+#content .cp_system .system_2 .sy_idea .idea_txt .txt_point{
+    color: var(--color-main1);
+}

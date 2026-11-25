@@ -1,0 +1,49 @@
+#content .content_area{width: 1400px;margin: 0 auto 200px;}
+#content .content_area .slogan{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+/* #content .content_area .test{display: flex;justify-content: center;gap:30px;margin-bottom: 50px;}
+#content .content_area .test p{transform: translateY(250px);font-size: 2.8rem;font-weight: 700;line-height: 1.8;} */
+
+#content .content_area .ceo_img{
+    border-radius: 340px 0 0 340px;
+    margin: 0 auto;
+    width: 1400px;
+    height: 680px;
+    object-fit: cover;
+    object-position: center;
+}
+#content .content_area .ceo_text{
+    margin-bottom: 60px;
+    font-size: 1.25em;
+    line-height: 2;
+    text-align: justify;
+    word-break: keep-all;
+}
+#content .content_area .ceo_text span{
+    font-size: 1.7rem;
+    font-weight:600;
+    color: var(--color-main1);
+}
+#content .content_area .ceo_intro{
+    font-size: 2.2rem;
+    margin:120px 0 60px;
+}
+#content .content_area .ceo_intro strong{
+    font-size: 2.8rem;
+    color: var(--color-main1);
+}
+#content .content_area .ceo_sign{
+    display: block;
+    text-align: right;
+    font-size: 1.5rem;
+    margin-top: 100px;
+    font-weight: 500;
+}
+#content .content_area .ceo_sign img{
+    margin-left: 20px;
+    transform: translateY(10px);
+}
